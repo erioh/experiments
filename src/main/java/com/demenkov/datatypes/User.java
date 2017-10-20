@@ -14,7 +14,6 @@ public class User {
 
     public User() {
     }
-
     public User(int id, String name, Date dateOfBirth) {
         this.id = id;
         this.name = name;
