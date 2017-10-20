@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Web Page Jobta :) </title>
+</head>
+
+<p/><a href="/delete">Delete user page</a>
+<p/><a href="/insert">Insert user page</a>
+<p/><a href="/user">Main page</a>
+<p/>
+<table><caption> USERS </caption>
+    <tr><th>User ID</th><th> User Name </th></tr>
+<#list listOfUsers as user>
+    <tr><td>${user.id}</td><td>${user.name}</td><td>${user.dateOfBirth}</td></tr>
+        <p/>
+</#list>
+</table>
+</body>
+</html>
